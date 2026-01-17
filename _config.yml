@@ -1,0 +1,21 @@
+# Site settings
+title: "Zandanbal Digital Corner"
+description: "Thoughts and writings from Zandanbal"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# Include files
+include:
+  - _pages
