@@ -48,6 +48,10 @@ Current Solutions:
 At present, many bridge protocols employ a committee-based approach as an efficient alternative. In these systems, a committee of validators is responsible for approving state transfers. However, this approach has major issues. Firstly, it relies on an extra trust assumption in the committee, which makes bridged assets less secure than native ones, thus complicating the security analysis of downstream applications. Secondly, relying on a small committee can result in single points of failure. For example, in the recent Ronin bridge exploit, attackers were able to steal 624 million USD by obtaining five of the nine validator keys, making it the largest attack in the history of DeFi as of April 2022. The second and third largest attacks also targeted bridges, with $611m stolen from PolyNetwork and $326m stolen from Wormhole, with key compromise suspected in the PolyNetwork attack.
 
 📝 Geregé — Steppingstone to Becoming Trust-minimised Bridge Ecosystem
+
+![zkIBC Architecture Diagram](assets/images/zkibc-architecture.png)
+*zkIBC Architecture - Trust-Minimised Cross-Chain Communication*
+
 Geregè approach:
 Our proposed solution, zkIBC, offers an efficient and secure cross-chain bridge without relying on a centralized committee. We achieve this by combining zk-SNARK and zk-STARK proofs to enable a prover to convince ST2 that a state transition has taken place on T1. To keep ST2 in sync with T1, anyone can submit a proof that shows the latest block header of T1 and the corresponding Merkle proofs.
 
