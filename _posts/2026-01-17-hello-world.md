@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Gerge"
+title: "The Geregè"
 ---
 Geregè is a trust-minimised bridge that connects the Cosmos Ecosystem with Ethereum Layer 2s, powered by zero-knowledge. Geregè is designed to become the largest zkbridge ecosystem that connects all blockchains through trustless bridging.
 
